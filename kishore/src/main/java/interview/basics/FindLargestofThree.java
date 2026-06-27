@@ -18,6 +18,11 @@ public class FindLargestofThree {
         System.out.println(largest + " is the largest among 3 numbers");
     }
 
+    public static void getLargestofnum(int a, int b, int c) {
+        int largest = Math.max(a, Math.max(b, c));
+        System.out.println(largest + " is the largest among 3 numbers");
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -27,6 +32,8 @@ public class FindLargestofThree {
         int y = sc.nextInt();
         int z = sc.nextInt();
 
-        getlargestofthree(x,y,z);
+        //getlargestofthree(x,y,z);
+
+        getlargestofthree(x, y, z);
     }
 }
